@@ -44,9 +44,9 @@ Build Company News Alert System
 # Contributing
 Please follow standard contribution guidelines:
 
-`  1.Fork the repository
-   2.Create feature branches
-   3.Submit pull requests with detailed descriptions
+`   Fork the repository
+    Create feature branches
+    Submit pull requests with detailed descriptions
 
 # License
 MIT License - see LICENSE file for details
