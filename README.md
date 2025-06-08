@@ -3,43 +3,40 @@ This project scrapes articles from company websites and extracts detailed text-b
 # Overview
 The objective of this project is to analyze BlackCoffer blog articles by extracting and evaluating a range of linguistic and sentiment-based features. Using metrics such as word count, average words per sentence, average sentence length, percentage of complex words, and Fog Index, we assess the textual complexity and readability of each article. Additionally, sentiment indicators like positive and negative scores, polarity, and subjectivity scores help us understand the emotional tone of the content. Other features, including personal pronoun usage and average word length, offer deeper insights into the writing style and narrative voice. Together, these computed attributes provide a comprehensive, data-driven perspective on the language and sentiment patterns across the blog’s articles
 # Key Computed Variables
-URL: The link to the original blog article used as the data source.
+1.URL: The link to the original blog article used as the data source.
 
-Cleaned_Article: The preprocessed version of the article text with noise (like HTML tags, punctuation, stopwords) removed.
+2.Cleaned_Article: The preprocessed version of the article text with noise (like HTML tags, punctuation, stopwords) removed.
 
-Transformed_Text: The final form of the article text after tokenization, lemmatization, or other NLP transformations, ready for analysis.
+3.Transformed_Text: The final form of the article text after tokenization, lemmatization, or other NLP transformations, ready for analysis.
 
-Word_Count: The total number of words in the cleaned article, indicating article length.
+4.Word_Count: The total number of words in the cleaned article, indicating article length.
 
-Avg_Word_Per_Sentence: Average number of words used per sentence, useful for understanding sentence density.
+5.Avg_Word_Per_Sentence: Average number of words used per sentence, useful for understanding sentence density.
 
-Avg_Sentence_Length: The average number of characters or words per sentence, reflecting writing complexity.
+6.Avg_Sentence_Length: The average number of characters or words per sentence, reflecting writing complexity.
 
-Percentage_Complex_Words: Proportion of words in the article that are classified as complex (typically 3+ syllables).
+7.Percentage_Complex_Words: Proportion of words in the article that are classified as complex (typically 3+ syllables).
 
-Fog_Index: Provides an estimate of the readability of the content based on sentence and word complexity
+8.Fog_Index: Provides an estimate of the readability of the content based on sentence and word complexity
 
-Personal_Pronouns_Count: Number of personal pronouns (I, we, you, etc.) used, indicating subjectivity or personal tone.
+9.Personal_Pronouns_Count: Number of personal pronouns (I, we, you, etc.) used, indicating subjectivity or personal tone.
 
-Avg_Word_Length: The average number of characters per word, often correlating with vocabulary complexity.
+10.Avg_Word_Length: The average number of characters per word, often correlating with vocabulary complexity.
 
-Complex_Word_Count: Total number of complex words in the article, used in readability analysis.
+11.Complex_Word_Count: Total number of complex words in the article, used in readability analysis.
 
-Positive_Score: A measure of how many positively connotated words appear in the article.
+12.Positive_Score: A measure of how many positively connotated words appear in the article.
 
-Negative_Score: A measure of how many negatively connotated words appear in the article.
+13.Negative_Score: A measure of how many negatively connotated words appear in the article.
 
-Polarity_Score: A normalized score reflecting the overall sentiment of the article (positive vs. negative).
+14. Polarity_Score: A normalized score reflecting the overall sentiment of the article (positive vs. negative).
 
-Subjectivity_Score: A score representing how subjective (opinion-based) or objective (fact-based) the content is.
+15. Subjectivity_Score: A score representing how subjective (opinion-based) or objective (fact-based) the content is.
+
 # Later Improvements
-Run extractive summarization (e.g., TextRank) on it.
+1. Use LLMs to finetune the cleaned Articles for News Summariser.
 
-Combine statistical + extractive summary for richer results.
-
-Use LLMs to summarize based on extracted metadata and/or short snippets.
-
-Build Company News Alert System
+2. Deployment
 
 # Contributing
 Please follow these steps:
