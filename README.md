@@ -42,11 +42,14 @@ Use LLMs to summarize based on extracted metadata and/or short snippets.
 Build Company News Alert System
 
 # Contributing
-Please follow standard contribution guidelines:
+Please follow these steps:
 
-`   Fork the repository
-    Create feature branches
-    Submit pull requests with detailed descriptions
+1. Fork the repository  
+2. Create a new branch for your feature  
+3. Commit your changes with clear messages  
+4. Push to your fork  
+5. Submit a pull request  
+
 
 # License
 MIT License - see LICENSE file for details
