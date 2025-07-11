@@ -1,4 +1,7 @@
 # ScrapOps
+
+<img width="455" height="260" alt="image" src="https://github.com/user-attachments/assets/fa592074-5e66-45db-bf00-9f5e77a135a0" />
+
 This project was my effort to create a dataset for the public use.It also explores unique KPIs which i have listed down as computed variables . This project scrapes articles from company websites and extracts detailed text-based and sentiment features, storing them in a structured Xslx format. It's designed for building  and generating Buisness Insights 
 # Overview
 The objective of this project is to analyze BlackCoffer blog articles by extracting and evaluating a range of linguistic and sentiment-based features. Using metrics such as word count, average words per sentence, average sentence length, percentage of complex words, and Fog Index, we assess the textual complexity and readability of each article. Additionally, sentiment indicators like positive and negative scores, polarity, and subjectivity scores help us understand the emotional tone of the content. Other features, including personal pronoun usage and average word length, offer deeper insights into the writing style and narrative voice. Together, these computed attributes provide a comprehensive, data-driven perspective on the language and sentiment patterns across the blog’s articles
