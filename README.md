@@ -2,7 +2,21 @@
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fa592074-5e66-45db-bf00-9f5e77a135a0" />
 
-This project was my effort to create a dataset for the public use.It also explores unique KPIs which i have listed down as computed variables . This project scrapes articles from company websites and extracts detailed text-based and sentiment features, storing them in a structured Xslx format. It's designed for building  and generating Buisness Insights 
+This project involved building a structured dataset by scraping blog articles from corporate websites and engineering text-based KPIs to assess content performance. I developed and computed 15+ linguistic and sentiment variables, such as Fog Index, Subjectivity Score, Polarity Score, and Complex Word Count, to evaluate readability, tone, and complexity of marketing content.
+
+These features were then used to create an interactive Power BI dashboard focused on SEO optimization and content strategy evaluation. The dashboard allows users to:
+
+1. Identify articles with ideal sentiment and readability for search ranking
+
+2. Detect blogs needing SEO revision based on tone, length, and complexity
+
+3. Analyze content tone distribution (Positive, Negative, Neutral)
+
+4. Assess subjectivity levels to balance objectivity with brand voice
+
+The goal was to offer data-driven content insights that marketing teams or business analysts can use to refine communication strategies and improve organic performance.
+
+The final output is a publicly usable XLSX dataset and an SEO-focused analytics dashboard, enabling future users to explore and extend the insights for content optimization, A/B testing, or marketing automation 
 # Overview
 The objective of this project is to analyze BlackCoffer blog articles by extracting and evaluating a range of linguistic and sentiment-based features. Using metrics such as word count, average words per sentence, average sentence length, percentage of complex words, and Fog Index, we assess the textual complexity and readability of each article. Additionally, sentiment indicators like positive and negative scores, polarity, and subjectivity scores help us understand the emotional tone of the content. Other features, including personal pronoun usage and average word length, offer deeper insights into the writing style and narrative voice. Together, these computed attributes provide a comprehensive, data-driven perspective on the language and sentiment patterns across the blog’s articles
 # Key Computed Variables
