@@ -1,6 +1,6 @@
 # ScrapOps
 
-<img width="455" height="260" alt="image" src="https://github.com/user-attachments/assets/fa592074-5e66-45db-bf00-9f5e77a135a0" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fa592074-5e66-45db-bf00-9f5e77a135a0" />
 
 This project was my effort to create a dataset for the public use.It also explores unique KPIs which i have listed down as computed variables . This project scrapes articles from company websites and extracts detailed text-based and sentiment features, storing them in a structured Xslx format. It's designed for building  and generating Buisness Insights 
 # Overview
